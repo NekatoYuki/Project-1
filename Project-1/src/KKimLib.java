@@ -7,12 +7,13 @@ public class KKimLib {
 	
 	public static void dateStr(String str)
 	{
-		System.out.println(str.substring(3,5) + " - " + str.substring(0,2) + " - " + str.substring(6));
+		System.out.println (str.substring(3,5) + " - " + str.substring(0,2) + " - " + str.substring(6));
 	}
 
 //isFibonnaci
 	
-	public static boolean isFibonnaci(int num) {
+	public static boolean isFibonnaci(int num)
+	{
 		if (num<0) return false;
 		else
 		{
@@ -29,6 +30,11 @@ public class KKimLib {
 			else return false;
 		}
 	}
-}
 
-// 
+//vigCipher
+	
+	public static void vigCipher(String str)
+	{
+		int a = 0;
+	}
+}
