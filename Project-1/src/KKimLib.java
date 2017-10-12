@@ -5,7 +5,7 @@ public class KKimLib {
 	
 //dateStr
 	
-	public static String dateStr(String str)
+	public static void dateStr(String str)
 	{
 		System.out.println(str.substring(3,5) + " - " + str.substring(0,2) + " - " + str.substring(6));
 	}
