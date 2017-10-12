@@ -12,9 +12,9 @@ public class KKimLib {
 
 //isFibonnaci
 	
-	public static boolean isFibonnaci(int num)
+	public static void isFibonnaci(int num)
 	{
-		if (num<0) return false;
+		if (num<0) System.out.println(false);
 		else
 		{
 			int x=0;
@@ -26,8 +26,8 @@ public class KKimLib {
 					x=y;
 					y=z;
 				}
-			if (num==z) return true;
-			else return false;
+			if (num==z) System.out.println (true);
+			else System.out.println (false);
 		}
 	}
 
