@@ -7,7 +7,7 @@ public class KKimLib {
 	
 	public static void dateStr(String str)
 	{
-		System.out.println (str.substring(3,5) + " - " + str.substring(0,2) + " - " + str.substring(6));
+		System.out.println (str.substring(3,5) + " - " + str.substring(0,2) + " - " + str.substring(6)); // order is simply rewritten which a dash included
 	}
 
 //isFibonnaci
@@ -17,14 +17,14 @@ public class KKimLib {
 		if (num<0) System.out.println(false);
 		else
 		{
-			int x=0;
-			int y=1;
-			int z=0;
+			int x=0; //first number
+			int y=1; //second number
+			int z=0; //sum of both numbers
 			while (z<num)
 				{
-					z=x+y;
-					x=y;
-					y=z;
+					z=x+y; //sum is calculated
+					x=y; //second becomes first number
+					y=z; //sum becomes second number
 				}
 			if (num==z) System.out.println (true);
 			else System.out.println (false);
