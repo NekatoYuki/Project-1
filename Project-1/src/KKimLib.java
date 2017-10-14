@@ -31,10 +31,17 @@ public class KKimLib {
 		}
 	}
 
-//vigCipher
+//multiplicationTable
 	
-	public static void vigCipher(String str)
+	public static void multiplicationTable(int a, int b)
 	{
-		int a = 0;
+		int c = 0; //counter starting from 0 up to int b
+			while (c<b)
+			{
+				int d = a*c; //product
+				System.out.print(d + ", "); //prints product
+				c++; //counter up by 1
+			}
+		System.out.print(a*b); //prints final product
 	}
 }
