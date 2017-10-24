@@ -42,6 +42,6 @@ public class KKimLib {
 				System.out.print(d + ", "); //prints product
 				c++; //counter up by 1
 			}
-		System.out.print(a*b); //prints final product
+		System.out.println(a*b); //prints final product
 	}
 }
