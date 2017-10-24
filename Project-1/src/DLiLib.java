@@ -1,3 +1,5 @@
+//Daniel Li
+//Method Madness Project
 
 public class DLiLib 
 {
